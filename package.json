@@ -1,0 +1,14 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "custom chat bot for tg",
+  "scripts": {
+    "build": "node index.js",
+    "start:watch": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "telegraf": "^4.4.1"
+  }
+}
